@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Texts" Collapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Texts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Assets.Factories.Drugs.IChemicalDrugFactory" Collapsed="true">
+    <Position X="24.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Drugs\IChemicalDrugFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Drugs.IDepressantDrugFactory" Collapsed="true">
+    <Position X="26.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Drugs\IDepressantDrugFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Drugs.IDrugFactory" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Factories\Drugs\IDrugFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Drugs.INaturalDrugFactory" Collapsed="true">
+    <Position X="29" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Drugs\INaturalDrugFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Drugs.IPsychedelicDrugFactory" Collapsed="true">
+    <Position X="31.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Drugs\IPsychedelicDrugFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Drugs.IStimulantDrugFactory" Collapsed="true">
+    <Position X="33.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Drugs\IStimulantDrugFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.JunkieGroups.IChemicalJunkieGroupFactory" Collapsed="true">
+    <Position X="24.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\JunkieGroups\IChemicalJunkieGroupFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.JunkieGroups.IDepressantJunkieGroupFactory" Collapsed="true">
+    <Position X="26.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\JunkieGroups\IDepressantJunkieGroupFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.JunkieGroups.IJunkieGroupFactory" Collapsed="true">
+    <Position X="27.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Factories\JunkieGroups\IJunkieGroupFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.JunkieGroups.INaturalJunkieGroupFactory" Collapsed="true">
+    <Position X="29" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\JunkieGroups\INaturalJunkieGroupFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.JunkieGroups.IPsychedelicJunkieGroupFactory" Collapsed="true">
+    <Position X="31.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\JunkieGroups\IPsychedelicGroupFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.JunkieGroups.IStimulantJunkieGroupFactory" Collapsed="true">
+    <Position X="37.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\JunkieGroups\IStimulantJunkieGroupFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.ProductionLocations.IChemicalProductionLocationFactory" Collapsed="true">
+    <Position X="12.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\ProductionLocations\IChemicalProductionLocationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.ProductionLocations.IDepressantProductionLocationFactory" Collapsed="true">
+    <Position X="14.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\ProductionLocations\IDepressantProductionLocationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.ProductionLocations.INaturalProductionLocationFactory" Collapsed="true">
+    <Position X="17" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\ProductionLocations\INaturalProductionLocationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.ProductionLocations.IProductionLocationFactory" Collapsed="true">
+    <Position X="17" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\ProductionLocations\IProductionLocationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.ProductionLocations.IPsychedelicProductionLocationFactory" Collapsed="true">
+    <Position X="19.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\ProductionLocations\IPsychedelicProductionLocationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.ProductionLocations.IStimulantProductionLocationFactory" Collapsed="true">
+    <Position X="21.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\ProductionLocations\IStimulantProductionLocationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.ResourceGatheringLocations.IChemicalResourceGatheringLocationFactory" Collapsed="true">
+    <Position X="2.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\ResourceGatheringLocations\IChemicalResourceGatheringLocationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.ResourceGatheringLocations.IDepressantResourceGatheringLocationFactory" Collapsed="true">
+    <Position X="5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\ResourceGatheringLocations\IDepressantResourceGatheringLocationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.ResourceGatheringLocations.INaturalResourceGatheringLocationFactory" Collapsed="true">
+    <Position X="7.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\ResourceGatheringLocations\INaturalResourceGatheringLocationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.ResourceGatheringLocations.IPsychedelicResourceGatheringLocationFactory" Collapsed="true">
+    <Position X="9.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\ResourceGatheringLocations\IPsychedelicResourceGatheringLocationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.ResourceGatheringLocations.IResourceGatheringLocationFactory" Collapsed="true">
+    <Position X="5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\ResourceGatheringLocations\IResourceGatheringLocationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.ResourceGatheringLocations.IStimulantResourceGatheringLocationFactory" Collapsed="true">
+    <Position X="0.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\ResourceGatheringLocations\IStimulantResourceGatheringLocationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.SellingLocations.IDepressantSellingLocation" Collapsed="true">
+    <Position X="14.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\SellingLocations\IDepressantSellingLocation.cs</FileName>
+      <NewMemberFileName>Assets\Factories\SellingLocations\IDepressantSellingLocationFactory.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.SellingLocations.INaturalSellingLocation" Collapsed="true">
+    <Position X="17" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\SellingLocations\INaturalSellingLocation.cs</FileName>
+      <NewMemberFileName>Assets\Factories\SellingLocations\INaturalSellingLocationFactory.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.SellingLocations.IPsychedelicSellingLocation" Collapsed="true">
+    <Position X="19.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\SellingLocations\IPsychedelicSellingLocation.cs</FileName>
+      <NewMemberFileName>Assets\Factories\SellingLocations\IPsychedelicSellingLocationFactory.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.SellingLocations.ISellingLocation" Collapsed="true">
+    <Position X="17" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAACAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\SellingLocations\ISellingLocation.cs</FileName>
+      <NewMemberFileName>Assets\Factories\SellingLocations\ISellingLocationFactory.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.SellingLocations.IStimulantSellingLcation" Collapsed="true">
+    <Position X="21.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\SellingLocations\IStimulantSellingLcation.cs</FileName>
+      <NewMemberFileName>Assets\Factories\SellingLocations\IStimulantSellingLcationFactory.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.Drugs.IChemicalDrugsUpgradeFactory" Collapsed="true">
+    <Position X="7.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\Drugs\IChemicalDrugsUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.Drugs.IDepressantDrugsUpgradeFactory" Collapsed="true">
+    <Position X="9.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\Drugs\IDepressantDrugsUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.Drugs.IDrugsUpgradeFactory" Collapsed="true">
+    <Position X="5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\Drugs\IDrugsUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.Drugs.INaturalDrugsUpgradeFactory" Collapsed="true">
+    <Position X="0.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\Drugs\INaturalDrugsUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.Drugs.IPsyechedelicDrugsUpgradeFactory" Collapsed="true">
+    <Position X="2.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\Drugs\IPsychedelicDrugsUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.Drugs.IStimulantDrugsUpgradeFactory" Collapsed="true">
+    <Position X="5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\Drugs\IStimulantDrugsUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.JunkieGroups.IChemicalJunkieGroupUpgradeFactory" Collapsed="true">
+    <Position X="12.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\JunkieGroups\IChemicalJunkieGroupUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.JunkieGroups.IDepressantJunkieGroupFactory" Collapsed="true">
+    <Position X="14.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\JunkieGroups\IDepressantJunkieGroupFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.JunkieGroups.IJunkieGroupsUpgradeFactory" Collapsed="true">
+    <Position X="17" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\JunkieGroups\IJunkieGroupsUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.JunkieGroups.INaturalJunkieGroupUpgradeFactory" Collapsed="true">
+    <Position X="17" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\JunkieGroups\INaturalJunkieGroupUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.JunkieGroups.IPsychedelicJunkieGroupUpgradeFactory" Collapsed="true">
+    <Position X="19.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\JunkieGroups\IPsychedelicJunkieGroupUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.JunkieGroups.IStimulantsJunkieGroupUpgradeFactory" Collapsed="true">
+    <Position X="21.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\JunkieGroups\IStimulantsJunkieGroupUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.ProductionLocations.IChemicalProductionLocationUpgradeFactory" Collapsed="true">
+    <Position X="7.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\ProductionLocations\IChemicalProductionLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.ProductionLocations.IDepressantProductionLocationUpgradeFactory" Collapsed="true">
+    <Position X="9.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\ProductionLocations\IDepressantProductionLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.ProductionLocations.INaturalProductionLocationUpgradeFactory" Collapsed="true">
+    <Position X="0.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\ProductionLocations\INaturalProductionLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.ProductionLocations.IProductionLocationUpgradeFactory" Collapsed="true">
+    <Position X="5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\ProductionLocations\IProductionLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.ProductionLocations.IPsychedelicProductionLocationUpgradeFactory" Collapsed="true">
+    <Position X="2.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\ProductionLocations\IPsychedelicProductionLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.ProductionLocations.IStimulantProductionLocationUpgradeFactory" Collapsed="true">
+    <Position X="5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\ProductionLocations\IStimulantProductionLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.ResourceGatheringLocations.IChemicalResourceGatheringLocationUpgradeFactory" Collapsed="true">
+    <Position X="12.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\ResourceGatheringLocations\IChemicalResourceGatheringLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.ResourceGatheringLocations.IDepressantResourceGatheringLocationUpgradeFactory" Collapsed="true">
+    <Position X="14.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\ResourceGatheringLocations\IDepressantResourceGatheringLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.ResourceGatheringLocations.INaturalResourceGatheringLocationUpgradeFactory" Collapsed="true">
+    <Position X="17" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\ResourceGatheringLocations\INaturalResourceGatheringLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.ResourceGatheringLocations.IPsychedelicResourceGatheringLocationUpgradeFactory" Collapsed="true">
+    <Position X="19.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\ResourceGatheringLocations\IPsychedelicResourceGatheringLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.ResourceGatheringLocations.IResourceGatheringLocationUpgradeFactory" Collapsed="true">
+    <Position X="17" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\ResourceGatheringLocations\IResourceGatheringLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.ResourceGatheringLocations.IStimulantResourceGatheringLocationUpgradeFactory" Collapsed="true">
+    <Position X="21.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\ResourceGatheringLocations\IStimulantResourceGatheringLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.SellingLocations.IChemicalSellingLocationUpgradeFactory" Collapsed="true">
+    <Position X="9.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\SellingLocations\IChemicalSellingLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.SellingLocations.IDepressantSellingLocatinUpgradeFactory" Collapsed="true">
+    <Position X="0.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\SellingLocations\IDepressantSellingLocatinUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.SellingLocations.INaturalSellingLocationUpgradeFactory" Collapsed="true">
+    <Position X="2.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\SellingLocations\INaturalSellingLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.SellingLocations.IPsychedelicSellingLocationUpgradeFactory" Collapsed="true">
+    <Position X="5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\SellingLocations\IPsychedelicSellingLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.SellingLocations.ISellingLocationUpgradeFactory" Collapsed="true">
+    <Position X="5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\SellingLocations\ISellingLocationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Factories.Upgrades.SellingLocations.IStimulantSellingLocationUpgradeFactory" Collapsed="true">
+    <Position X="7.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Factories\Upgrades\SellingLocations\IStimulantSellingLocationUpgradeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Drugs.IChemicalDrug" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Drugs\IChemicalDrug.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Drugs.IDepressantDrug" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Drugs\IDepressantDrug.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Drugs.IDrug" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAQAAAAEAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Drugs\IDrug.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Drugs.INaturalDrug" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Drugs\INaturalDrug.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Drugs.IPsychedelicDrug" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Drugs\IPsychedelicDrug.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Drugs.IStimulantDrug" Collapsed="true">
+    <Position X="30.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Drugs\IStimulantDrug.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.JunkieGroups.IChemicalJunkieGroup" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\JunkieGroups\IChemicalJunkieGroup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.JunkieGroups.IDepressantJunkieGroup" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\JunkieGroups\IDepressantJunkieGroup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.JunkieGroups.IJunkieGroup" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAABAAACAEAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\JunkieGroups\IJunkieGroup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.JunkieGroups.INaturalJunkieGroup" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\JunkieGroups\INaturalJunkieGroup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.JunkieGroups.IPsychedelicJunkieGroup" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\JunkieGroups\IPsychedelicJunkieGroup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.JunkieGroups.IStimulantJunkieGroup" Collapsed="true">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\JunkieGroups\IStimulantJunkieGroup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.ProductionLocations.IChemicalProductionLocation" Collapsed="true">
+    <Position X="24" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\ProductionLocations\IChemicalProductionLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.ProductionLocations.IDepressantProductionLocation" Collapsed="true">
+    <Position X="26.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\ProductionLocations\IDepressantProductionLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.ProductionLocations.INaturalProductionLocation" Collapsed="true">
+    <Position X="28.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\ProductionLocations\INaturalProductionLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.ProductionLocations.IProductionLocation" Collapsed="true">
+    <Position X="25.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAgAAAAAAAAlAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\ProductionLocations\IProductionLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.ProductionLocations.IPsychedelicProductionLocation" Collapsed="true">
+    <Position X="36" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\ProductionLocations\IPsychedelicProductionLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.ProductionLocations.IStimulantProductionLocation" Collapsed="true">
+    <Position X="21.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\ProductionLocations\IStimulantProductionLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.ResourceGatheringLocations.IChemicalResourceGatheringLocation" Collapsed="true">
+    <Position X="12.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\ResourceGatheringLocations\IChemicalResourceGatheringLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.ResourceGatheringLocations.IDepressantResourceGatheringLocation" Collapsed="true">
+    <Position X="14.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\ResourceGatheringLocations\IDepressantResourceGatheringLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.ResourceGatheringLocations.INaturalResourceGatheringLocation" Collapsed="true">
+    <Position X="17" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\ResourceGatheringLocations\INaturalResourceGatheringLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.ResourceGatheringLocations.IPsychedelicResourceGatheringLocation" Collapsed="true">
+    <Position X="19.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\ResourceGatheringLocations\IPsychedelicResourceGatheringLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.ResourceGatheringLocations.IResourceGatheringLocation" Collapsed="true">
+    <Position X="17" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\ResourceGatheringLocations\IResourceGatheringLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.ResourceGatheringLocations.IStimulantResurceGatheringLocation" Collapsed="true">
+    <Position X="21.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\ResourceGatheringLocations\IStimulantResurceGatheringLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.Drugs.IChemicalDrugsUpgrade" Collapsed="true">
+    <Position X="17" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\Drugs\IChemicalDrugsUpgrades.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.Drugs.IDepressantDrugUpgrade" Collapsed="true">
+    <Position X="19.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\Drugs\IDepressantDrugUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.Drugs.IDrugsUpgrade" Collapsed="true">
+    <Position X="17" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\Drugs\IDrugsUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.Drugs.INaturalDrugsUpgrade" Collapsed="true">
+    <Position X="21.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\Drugs\INaturalDrugsUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.Drugs.IPsyechedelicDrugsUpgrade" Collapsed="true">
+    <Position X="12.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\Drugs\IPsychedelicDrugsUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.Drugs.IStimulantDrugUpgrade" Collapsed="true">
+    <Position X="14.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\Drugs\IStimulantDrugUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.JunkieGroups.IChemicalJunkieGroupUpgrade" Collapsed="true">
+    <Position X="12.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\JunkieGroups\IChemicalJunkieGroupUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.JunkieGroups.IDepressantJunkieGroupUpgrade" Collapsed="true">
+    <Position X="14.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\JunkieGroups\IDepressantJunkieGroupUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.JunkieGroups.IJunkieGroupsUpgrade" Collapsed="true">
+    <Position X="17" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\JunkieGroups\IJunkieGroupsUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.JunkieGroups.INaturalJunkieGroupUpgrade" Collapsed="true">
+    <Position X="17" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\JunkieGroups\INaturalJunkieGroupUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.JunkieGroups.IPsychedelicJunkieGroupUpgrade" Collapsed="true">
+    <Position X="19.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\JunkieGroups\IPsychedelicJunkieGroupUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.JunkieGroups.IStimulantJunkieGroupUpgrade" Collapsed="true">
+    <Position X="21.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\JunkieGroups\IStimulantJunkieGroupUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.ProductionLocations.IChemicalProductionLocationUpgrade" Collapsed="true">
+    <Position X="5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\ProductionLocations\IChemicalProductionLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.ProductionLocations.IDepressantProductionLocationUpgrade" Collapsed="true">
+    <Position X="7.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\ProductionLocations\IDepressantProductionLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.ProductionLocations.INaturalProductionLocationUpgrade" Collapsed="true">
+    <Position X="9.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\ProductionLocations\INaturalProductionLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.ProductionLocations.IProductionLocationUpgrade" Collapsed="true">
+    <Position X="5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\ProductionLocations\IProductionLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.ProductionLocations.IPsychedelicProductionLocationUpgrade" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\ProductionLocations\IPsychedelicProductionLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.ProductionLocations.IStimulantProductionLocationUpgrade" Collapsed="true">
+    <Position X="2.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\ProductionLocations\IStimulantProductionLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.ResourceGatheringLocations.IChemicalResourceGatheringLocationUpgrade" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\ResourceGatheringLocations\IChemicalResourceGatheringLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.ResourceGatheringLocations.IDepressantResourceGatheringLocationUpgrade" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\ResourceGatheringLocations\IDepressantResourceGatheringLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.ResourceGatheringLocations.INaturalResourceGatheringLocationUpgrade" Collapsed="true">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\ResourceGatheringLocations\INaturalResourceGatheringLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.ResourceGatheringLocations.IPsychedelicResourceGatheringLocationUpgrade" Collapsed="true">
+    <Position X="7.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\ResourceGatheringLocations\IPsychedelicResourceGatheringLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.ResourceGatheringLocations.IResourceGatheringLocationUpgrade" Collapsed="true">
+    <Position X="5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\ResourceGatheringLocations\IResourceGatheringLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.ResourceGatheringLocations.IStimulantResourceGatheringLocationUpgrade" Collapsed="true">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\ResourceGatheringLocations\IStimulantResourceGatheringLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.SellingLocations.IChemicalSellingLocationUpgrade" Collapsed="true">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\SellingLocations\IChemicalSellingLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.SellingLocations.IDepressantSellingLocationUpgrade" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\SellingLocations\IDepressantSellingLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.SellingLocations.INaturalSellingLocationUpgrade" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\SellingLocations\INaturalSellingLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.SellingLocations.IPsychedelicSellingLocationUpgrade" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\SellingLocations\IPsychedelicSellingLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.SellingLocations.ISellingLocationUpgrade" Collapsed="true">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\SellingLocations\ISellingLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Interfaces.Upgrades.SellingLocations.IStimulantSellingLocationUpgrade" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Interfaces\Upgrades\SellingLocations\IStimulantSellingLocationUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
