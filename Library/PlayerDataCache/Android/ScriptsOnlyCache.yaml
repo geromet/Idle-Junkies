@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -126,87 +127,87 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1958}
     - Class: 114
-      Script: {instanceID: 2280}
-    - Class: 114
       Script: {instanceID: 2282}
     - Class: 114
-      Script: {instanceID: 2330}
+      Script: {instanceID: 2284}
     - Class: 114
-      Script: {instanceID: 2378}
+      Script: {instanceID: 2332}
     - Class: 114
-      Script: {instanceID: 2396}
+      Script: {instanceID: 2380}
     - Class: 114
-      Script: {instanceID: 2640}
+      Script: {instanceID: 2398}
     - Class: 114
-      Script: {instanceID: 2744}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 2778}
+      Script: {instanceID: 2746}
     - Class: 114
-      Script: {instanceID: 2930}
+      Script: {instanceID: 2780}
     - Class: 114
-      Script: {instanceID: 3096}
+      Script: {instanceID: 2932}
     - Class: 114
-      Script: {instanceID: 3140}
+      Script: {instanceID: 3098}
     - Class: 114
-      Script: {instanceID: 3194}
+      Script: {instanceID: 3142}
     - Class: 114
-      Script: {instanceID: 3200}
+      Script: {instanceID: 3196}
     - Class: 114
-      Script: {instanceID: 3314}
+      Script: {instanceID: 3202}
     - Class: 114
-      Script: {instanceID: 3322}
+      Script: {instanceID: 3316}
     - Class: 114
-      Script: {instanceID: 3332}
+      Script: {instanceID: 3324}
     - Class: 114
-      Script: {instanceID: 3474}
+      Script: {instanceID: 3334}
     - Class: 114
-      Script: {instanceID: 3540}
+      Script: {instanceID: 3476}
     - Class: 114
-      Script: {instanceID: 3600}
+      Script: {instanceID: 3542}
     - Class: 114
-      Script: {instanceID: 3716}
+      Script: {instanceID: 3602}
     - Class: 114
-      Script: {instanceID: 3728}
+      Script: {instanceID: 3718}
     - Class: 114
-      Script: {instanceID: 3870}
+      Script: {instanceID: 3730}
     - Class: 114
-      Script: {instanceID: 3878}
+      Script: {instanceID: 3872}
     - Class: 114
-      Script: {instanceID: 4066}
+      Script: {instanceID: 3880}
     - Class: 114
-      Script: {instanceID: 4112}
+      Script: {instanceID: 4068}
     - Class: 114
-      Script: {instanceID: 4150}
+      Script: {instanceID: 4114}
     - Class: 114
-      Script: {instanceID: 4252}
+      Script: {instanceID: 4152}
     - Class: 114
-      Script: {instanceID: 4258}
+      Script: {instanceID: 4254}
     - Class: 114
-      Script: {instanceID: 4296}
+      Script: {instanceID: 4260}
     - Class: 114
-      Script: {instanceID: 4340}
+      Script: {instanceID: 4298}
     - Class: 114
-      Script: {instanceID: 4462}
+      Script: {instanceID: 4342}
     - Class: 114
-      Script: {instanceID: 4644}
+      Script: {instanceID: 4464}
     - Class: 114
-      Script: {instanceID: 5100}
+      Script: {instanceID: 4648}
     - Class: 114
-      Script: {instanceID: 5286}
+      Script: {instanceID: 5104}
     - Class: 114
-      Script: {instanceID: 5358}
+      Script: {instanceID: 5290}
     - Class: 114
-      Script: {instanceID: 5494}
+      Script: {instanceID: 5362}
     - Class: 114
-      Script: {instanceID: 5776}
+      Script: {instanceID: 5498}
     - Class: 114
-      Script: {instanceID: 5832}
+      Script: {instanceID: 5782}
     - Class: 114
-      Script: {instanceID: 5908}
+      Script: {instanceID: 5838}
     - Class: 114
-      Script: {instanceID: 5952}
+      Script: {instanceID: 5914}
     - Class: 114
-      Script: {instanceID: 6244}
+      Script: {instanceID: 5958}
+    - Class: 114
+      Script: {instanceID: 6250}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -290,7 +291,7 @@ ScriptsOnlyBuild:
     className: SpriteSkin
   - hash:
       serializedVersion: 2
-      Hash: 938e6e6ac374439a881608750da8950d
+      Hash: 9e8ca67989b285b1be82d4b1a4d57f06
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MapMovement
@@ -308,7 +309,7 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: 00bffd18edbdfbe5f9877c80e505e2e8
+      Hash: 7236f14fe382b85eb054d2d3de547813
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UpgradesManager
@@ -470,7 +471,7 @@ ScriptsOnlyBuild:
     className: Methods
   - hash:
       serializedVersion: 2
-      Hash: 444a4df875c81e48fcb2108c760f85ca
+      Hash: bcf6b83494e07d9836e8be6975367b12
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Controller
@@ -530,7 +531,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerIntField
   - hash:
       serializedVersion: 2
-      Hash: be6437c9f975b7b40c22909681e7ea35
+      Hash: ad194b68fa3b052444da363233b96bef
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Data
@@ -999,4 +1000,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/gerom/Desktop/Build
+  playerPath: C:/Users/gerom/Desktop/IdleJunkies.apk
