@@ -13,4 +13,5 @@ public class Upgrades : MonoBehaviour
     public TMP_Text CostText;
     public void BuyClickUpgrade()=> UpgradesManager.instance.BuyClickUpgrade(UpgradeID);
     public void BuyIdleUpgrade() => UpgradesManager.instance.BuyIdleUpgrade(UpgradeID);
+    public void BuyUpgradeUpgrade() => UpgradesManager.instance.BuyUpgradeUpgrade(UpgradeID);
 }

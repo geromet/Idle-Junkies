@@ -9,6 +9,7 @@ public class Controller : MonoBehaviour
     [SerializeField] private TMP_Text clickPowerText;
     [SerializeField] private TMP_Text idlePowerText;
     [SerializeField] private TMP_Text dollarText;
+    [SerializeField] private TMP_Text upgradePowerText;
     public Data data;
 
     public double ClickPower()
@@ -29,6 +30,15 @@ public class Controller : MonoBehaviour
         }
         return Math.Round(total,2);
     }
+    public double UpgradePower()
+    {
+        double total = 0;
+        for (int i = 0; i<data.upgradeUpgradeLevel.Count; i++)
+        {
+            total += UpgradesManager.instance.upgradeUpgradeBasePower[i] * data.upgradeUpgradeLevel[i];
+        }
+        return total;
+    }
     private void Awake() => instance = this;
 
     private void Start()
@@ -42,12 +52,21 @@ public class Controller : MonoBehaviour
         dollarText.text = "$ " + data.dollars;
         clickPowerText.text = "+" + (1+ClickPower()) + " per click";
         idlePowerText.text = "+" + IdlePower() + " per second";
+        if (UpgradesManager.instance.UpgradeCostReduction()!=1)
+        {
+            upgradePowerText.text = "-" + Math.Round((100-((UpgradesManager.instance.UpgradeCostReduction() * 100))),3) + " % upgrade cost";
+        }
+        else
+        {
+            upgradePowerText.text = "-0 % upgrade cost";
+        }
+        
     }
     public void GenerateDollars()
     {
         data.dollars += 1+ ClickPower();
     }
-    private void GenerateIdleDollars()
+    public void GenerateIdleDollars()
     {
         data.dollars += IdlePower();
     }
