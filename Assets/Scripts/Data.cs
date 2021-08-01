@@ -7,13 +7,17 @@ public class Data : MonoBehaviour
     public List<double> clickUpgradeLevel;
     public List<double> idleUpgradeLevel;
     public List<double> upgradeUpgradeLevel;
+    public List<double> clickPercentageUpgradeLevel;
+    public List<double> idlePercentageUpgradeLevel;
 
     public Data()
     {
         dollars = 0;
-        clickUpgradeLevel = new double[12].ToList();
-        idleUpgradeLevel = new double[12].ToList();
-        upgradeUpgradeLevel = new double[9].ToList();
+        clickUpgradeLevel = new double[18].ToList();
+        idleUpgradeLevel = new double[18].ToList();
+        upgradeUpgradeLevel = new double[8].ToList();
+        clickPercentageUpgradeLevel = new double[18].ToList();
+        idlePercentageUpgradeLevel = new double[18].ToList();
     }
 
 }
