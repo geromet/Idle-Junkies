@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637629752829256917
-    m_Hash: 2294885182
+      ticks: 637634235900052162
+    m_Hash: 861471585
   m_LockFileStatus:
     m_FilePath: C:/Users/gerom/Idle Junkies/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637629753222204448
-    m_Hash: 138529086
+      ticks: 637634235900062273
+    m_Hash: 3892223524
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -101,6 +101,7 @@ m_PackageAssets:
         - 6.0.3
         - 6.0.4
         - 7.0.0-pre.2
+        - 7.0.0-pre.3
         compatible:
         - 5.0.6
         verified: 5.0.6
@@ -292,6 +293,7 @@ m_PackageAssets:
         - 5.0.4
         - 6.0.0-pre.2
         - 6.0.0-pre.3
+        - 6.0.0-pre.4
         compatible:
         - 4.1.0
         verified: 4.1.0
@@ -1049,6 +1051,7 @@ m_PackageAssets:
         - 7.5.3
         - 7.6.0
         - 7.7.0
+        - 7.7.1
         - 8.0.1
         - 8.1.0
         - 8.2.0
@@ -3468,6 +3471,7 @@ m_PackageAssets:
         - 7.5.3
         - 7.6.0
         - 7.7.0
+        - 7.7.1
         - 8.0.1
         - 8.1.0
         - 8.2.0

@@ -13,50 +13,37 @@ public class Controller : MonoBehaviour
     [SerializeField] private TMP_Text dollarText;
     [SerializeField] private TMP_Text upgradePowerText;
     public Data data;
-    readonly string[] symbols = new string[9] { "", "K", "M", "G", "T", "P", "E", "Z", "Y" };
-    public double ClickPower()
+    readonly string[] symbols = new string[22] { "", "Kil", "Mil", "Bil", "Tri", "Qua", "Qui", "Sex", "Sep","Oct","Non", "Dec", "Und", "Duo", "Tre", "Qua", "Qui", "Sexde", "Septe", "Octo", "Nov","Vig" };
+    public double Power(string UpgradeType)
     {
         double total = 0;
-        for (int i=0;i< data.clickUpgradeLevel.Count; i++)
+        switch (UpgradeType)
         {
-            total += UpgradesManager.instance.clickUpgradeBasePower[i] * data.clickUpgradeLevel[i];
+            case "Click":
+                for (int i = 0; i < data.clickUpgradeLevel.Count; i++)
+                    total += UpgradesManager.instance.clickUpgradeBasePower[i] * data.clickUpgradeLevel[i];
+                break;
+            case "Idle":
+                for (int i = 0; i < data.idleUpgradeLevel.Count; i++)
+                    total += UpgradesManager.instance.idleUpgradeBasePower[i] * data.idleUpgradeLevel[i];
+                break;
+            case "Cost":
+                for (int i = 0; i < data.upgradeUpgradeLevel.Count; i++)
+                    total += UpgradesManager.instance.upgradeUpgradeBasePower[i] * data.upgradeUpgradeLevel[i];
+                break;
+            case "ClickPercentage":
+                for (int i = 0; i < data.clickPercentageUpgradeLevel.Count; i++)
+                    total += UpgradesManager.instance.clickPercentageUpgradeBasePower[i] * data.clickPercentageUpgradeLevel[i];
+                break;
+            case "IdlePercentage":
+                for (int i = 0; i < data.idlePercentageUpgradeLevel.Count; i++)
+                    total += UpgradesManager.instance.idlePercentageUpgradeBasePower[i] * data.idlePercentageUpgradeLevel[i];
+                break;
+            default:
+                break;
         }
-        return Math.Round(total,2);
-    }
-    public double IdlePower()
-    {
-        double total = 0;
-        for (int i = 0; i< data.idleUpgradeLevel.Count; i++)
-        {
-            total += UpgradesManager.instance.idleUpgradeBasePower[i] * data.idleUpgradeLevel[i];
-        }
-        return Math.Round(total,2);
-    }
-    public double UpgradePower()
-    {
-        double total = 0;
-        for (int i = 0; i<data.upgradeUpgradeLevel.Count; i++)
-        {
-            total += UpgradesManager.instance.upgradeUpgradeBasePower[i] * data.upgradeUpgradeLevel[i];
-        }
-        return total;
-    }
-    public double ClickPercentagePower()
-    {
-        double total = 0;
-        for (int i = 0; i <data.clickPercentageUpgradeLevel.Count; i++)
-        {
-            total += UpgradesManager.instance.clickPercentageUpgradeBasePower[i] * data.clickPercentageUpgradeLevel[i];
-        }
-        return total;      
-    }
-    public double IdlePercentagePower()
-    {
-        double total = 0;
-        for (int i = 0; i < data.idlePercentageUpgradeLevel.Count; i++)
-        {
-            total += UpgradesManager.instance.idlePercentageUpgradeBasePower[i] * data.idlePercentageUpgradeLevel[i];
-        }
+
+        
         return total;
     }
     private void Awake() => instance = this;
@@ -65,15 +52,15 @@ public class Controller : MonoBehaviour
         data = gameObject.AddComponent<Data>();
         UpgradesManager.instance.StartUpgradeManager();
         InvokeRepeating("GenerateIdleDollars", 1f, 1f);
-        UpgradesManager.instance.UpdateUpgradeUI();
+        UpgradesManager.instance.UpdateUpgradeUI("All");
     }
     private void Update()
     {
         dollarText.text = "$ " + Symbolize(data.dollars);
-        clickPowerText.text = "+" + Symbolize((1+ClickPower())) + " per click";
-        idlePowerText.text = "+" + Symbolize(IdlePower()) + " per second";
-        clickPercentagePowerText.text = "+" + Symbolize(ClickPercentagePower()) + "% per click";
-        idlePercentagePowerText.text = "+" + Symbolize(IdlePercentagePower()) + "% / S";
+        clickPowerText.text = "+" + Symbolize((1+Power("Click"))) + " per click";
+        idlePowerText.text = "+" + Symbolize(Power("Idle")) + " per second";
+        clickPercentagePowerText.text = "+" + Symbolize(Power("ClickPercentage")) + "% per click";
+        idlePercentagePowerText.text = "+" + Symbolize(Power("IdlePercentage")) + "% / S";
         upgradePowerText.text = "-" + Symbolize(Math.Round((100-((UpgradesManager.instance.UpgradeCostReduction() * 100))),4)) + " % upgrade cost";      
     }
     public string Symbolize(double amount)
@@ -88,10 +75,10 @@ public class Controller : MonoBehaviour
     }
     public void GenerateDollars()
     {
-        data.dollars += ((1 + ClickPower()) * (1+ClickPercentagePower())) ;
+        data.dollars += ((1 + Power("Click")) * (1+Power("ClickPercentage"))) ;
     }
     public void GenerateIdleDollars()
     {
-        data.dollars += IdlePower() * IdlePercentagePower() ;
+        data.dollars += Power("Idle") * Power("IdlePercentage") ;
     }      
 }
